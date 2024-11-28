@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    color: #ff69b4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #6495ed;
+}
+
+/* Gradient Accent */
+.gradient {
+    background: linear-gradient(90deg, #ff69b4, #6495ed);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f9f9f9;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #ff69b4, #6495ed);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 10%;
+    background-color: #ffffff;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ff69b4, #6495ed);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 10%;
+    background: #f9f9f9;
+}
+
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ff69b4, #6495ed);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+    color: #333;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 10%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ff69b4, #6495ed);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #777;
+}
